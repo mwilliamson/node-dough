@@ -14,5 +14,8 @@
     },
     "devDependencies": {
         "nodeunit": "0.6.x"
+    },
+    "scripts": {
+        "test": "nodeunit test/*.test.js"
     }
 }
