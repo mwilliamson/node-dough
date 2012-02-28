@@ -21,8 +21,7 @@ The dependencies of a provider can be specified by passing them as additional ar
         callback(null, user.name);
     }, "user");
     injector.get("username", function(err, username) {
-        test.equal("Bob", username);
-        test.done();
+        // username === "Bob"
     });
 
 Although they all ultimately delegate to using `toProvider`, bindings can be specified with other methods:
