@@ -1,0 +1,18 @@
+{
+    "author": "Michael Williamson",
+    "name": "dough",
+    "description": "Simple dependency injection",
+    "keywords": ["dependency injection"],
+    "version": "0.1.0",
+    "homepage": "https://github.com/mwilliamson/node-dough",
+    "repository": {
+        "url": "git://github.com/mwilliamson/node-dough.git"
+    },
+    "main": "./index",
+    "dependencies": {
+        "async": "0.1.x"
+    },
+    "devDependencies": {
+        "nodeunit": "0.6.x"
+    }
+}
