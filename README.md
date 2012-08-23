@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/mwilliamson/node-dough.png)](http://travis-ci.org/mwilliamson/node-dough)
 # node-dough -- Simple dependency injection for node.js
 
 node-dough is a simple dependency injection library for node.js. It maps string keys to providers, which are simply asynchronous functions. For instance:
